@@ -2,7 +2,7 @@
 
 This framework allows you to easily run the [Rumble scanning agent](https://www.rumble.run/docs/discovering-assets/) as a container and create an asset inventory for your network.
 
-Pull this docker image and create a copy of the `run.sh` file available at this GitHub repository. This will fetch and run your scanning agent from Rumble.
+Pull this docker image and create a copy of the `run.sh` which fetches and runs your Rumble scanning agent.
 
 - You will need to pass the URL for the Rumble scanning agent executable as an environment variable to your container.
 - Bind your local directory to the output directory for the rumble scan results to ensure they don't get lost when the container stops.
